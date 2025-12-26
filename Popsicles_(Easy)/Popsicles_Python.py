@@ -1,5 +1,6 @@
 # Title: Popsicles
 # Difficulty: Easy
 
-a, b = map(int, input().split())
-print("give away" if b % a == 0 else "eat them yourself")
+siblings = int(input())
+popsicles = int(input())
+print("eat them yourself" if popsicles % siblings else "give away")
